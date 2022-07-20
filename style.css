@@ -28,15 +28,59 @@ h1{
     top: 10%;
     padding: 20px;
 }
+.second{
+    width: 40%;
+    float: left;
+    margin: 10px;
+    position: relative;
+    left: 10%;
+    
+    padding: 20px;
+}
 .jack{
     background-image: url(ps/header-bg.png);
     background-repeat: no-repeat;
 }
 section{
-    height: 80%;
+    height: 700px;
 }
 #move{
     position: relative;
     top: 70px;
     
+}
+#move2{
+    position: relative;
+    top: 28%;
+}
+.down{
+    text-decoration: none;
+    background-color: deeppink;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    position: relative;
+    top: 35px;
+}
+.biography{
+    background-image: url(ps/biography-bg.png);
+    background-repeat: no-repeat;
+}
+header{
+    background-image: url(ps/footer-bg.png);
+}
+.third{
+    width: 20%;
+    float: left;
+    margin: 15px;
+    position: relative;
+    left: 10%;
+    top: 10%;
+    padding: 20px;
+}
+#mlw{
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+    top: 30px;
 }
