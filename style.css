@@ -2,9 +2,6 @@ body{
     margin: 0;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.jack{
-    border: 2px solid red;
-}
 h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 35px;
@@ -40,9 +37,12 @@ h1{
 .jack{
     background-image: url(ps/header-bg.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
 }
 section{
-    height: 600px;
+    height: 650px;
 }
 #move{
     position: relative;
@@ -65,14 +65,13 @@ section{
 .biography{
     background-image: url(ps/biography-bg.png);
     background-repeat: no-repeat;
-}
-header{
-    background-image: url(ps/footer-bg.png);
+    background-position-x: center;
+    background-position-y: center;
 }
 .third{
     width: 20%;
     float: left;
-    margin: 15px;
+    margin:20px;
     position: relative;
     left: 10%;
     top: 10%;
@@ -84,4 +83,55 @@ header{
     position: relative;
     top: 30px;
     padding: 6px 0px 0px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font: 700;
+    font-size: 35px;
+}
+
+.lastpart{
+    text-align: center;
+
+}
+
+#age{
+    font-size: small;
+    position: relative;
+    bottom: 10px;
+}
+.mgs{
+    width: 50%;
+    background-color: deeppink;
+    padding: 10px 20px;
+    margin-left: 24%;
+    margin-top: 5%;
+    color: white;
+    border-radius: 20px;
+}
+#paragraph{
+    width: 40%;
+    padding: 10px 20px;
+    margin-left: 29%;
+}
+.lastpart{
+    background-image: url(ps/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+#clint{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font: 700;
+    font-size: 35px;
+}
+#mgs{
+    font-size: 15px;
+}
+.mail{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+footer{
+    text-align: center;
+    font-size: 10px;
 }
