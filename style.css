@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.jack{
+    border: 2px solid red;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    font: 700;
+    color: deeppink;
+}
+.hire-me{
+    text-decoration: none;
+    background-color:deeppink;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+    
+}
+.first{
+    width: 40%;
+    float: left;
+    margin: 10px;
+    position: relative;
+    left: 10%;
+    top: 10%;
+    padding: 20px;
+}
+.jack{
+    background-image: url(ps/header-bg.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 80%;
+}
+#move{
+    position: relative;
+    top: 70px;
+    
+}
